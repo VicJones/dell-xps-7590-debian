@@ -19,7 +19,7 @@ Now lets run some updates to get us on sid:
 
 `sudo apt update && sudo apt dist-upgrade`
 
-##NVIDIA Drivers
+## NVIDIA Drivers
 Lets get the official NVIDIA drivers installed.
 
 Download the latest drivers from: https://www.nvidia.com/en-us/drivers/unix/
@@ -44,13 +44,13 @@ Now lets install the drivers (Note file name might be different based on current
 
 `cd ~/Downloads &&& sudo bash ./NVIDIA-Linux-x86_64-460.39.run`
 
-##Other Tweaks
+## Other Tweaks
 
 We will be using another repo with some helpful tweaks that was for Ubuntu but can still be helpful here. Clone the following repo:
 
 `https://github.com/MuDiAhmed/Ubuntu-Dell-XPS-15-2019`
 
-###Suspend
+### Suspend
 
 We will be using the "Suspend Draining battery fast" fix:
 
@@ -60,7 +60,7 @@ Run `cd /path/to/repo/dir/`
 
 Run `sudo make suspend_install`
 
-###Screen Brightness
+### Screen Brightness
 
 We will also be using "Screen Brightness (OLED)" fix, since I'm on KDE I'll use the "FIX USING XRANDR" method.
 
